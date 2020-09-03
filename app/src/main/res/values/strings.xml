@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Test Application</string>
+    <string name="app_name">Clear City Application</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -144,7 +144,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
-    <string name="title_activity_init">FullscreenActivity</string>
+    <string name="title_activity_init">Wait...</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

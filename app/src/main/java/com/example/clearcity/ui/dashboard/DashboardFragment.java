@@ -1,5 +1,6 @@
 package com.example.clearcity.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.clearcity.R;
+import com.example.clearcity.ScrollingActivity;
 
 public class DashboardFragment extends Fragment {
 
@@ -28,6 +30,13 @@ public class DashboardFragment extends Fragment {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
+            }
+        });
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //https://github.com/1120118968/ClearCity
+                startActivity(new Intent(getContext(), ScrollingActivity.class));
             }
         });
         return root;
